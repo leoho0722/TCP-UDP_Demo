@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDA0DF6F1D866DA1E03C778 /* Pods_TCP_UDP_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E911E8316B24B6777406F3F9 /* Pods_TCP_UDP_DemoTests.framework */; };
+		91519D672AEAAC20EDA5AC90 /* Pods_TCP_UDP_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A70E95CA5B85D0CD1D5126 /* Pods_TCP_UDP_Demo.framework */; };
+		D00520B5268ED73F002540BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520B4268ED73F002540BA /* AppDelegate.swift */; };
+		D00520B7268ED73F002540BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520B6268ED73F002540BA /* SceneDelegate.swift */; };
+		D00520B9268ED73F002540BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520B8268ED73F002540BA /* ViewController.swift */; };
+		D00520BC268ED73F002540BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00520BA268ED73F002540BA /* Main.storyboard */; };
+		D00520BE268ED740002540BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00520BD268ED740002540BA /* Assets.xcassets */; };
+		D00520C1268ED740002540BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00520BF268ED740002540BA /* LaunchScreen.storyboard */; };
+		D00520CC268ED740002540BA /* TCP_UDP_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520CB268ED740002540BA /* TCP_UDP_DemoTests.swift */; };
+		D00520D7268ED740002540BA /* TCP_UDP_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520D6268ED740002540BA /* TCP_UDP_DemoUITests.swift */; };
+		D00520EE268EE08F002540BA /* UDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520ED268EE08F002540BA /* UDPViewController.swift */; };
+		D00520FC268F0C5D002540BA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520FB268F0C5D002540BA /* Alert.swift */; };
+		D00520FE268F128C002540BA /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00520FD268F128C002540BA /* DateToString.swift */; };
+		D99D47BEFAF87B39E02612E4 /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9EA14E071C164C32A0F7F3 /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00520C8268ED740002540BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00520A9268ED73F002540BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00520B0268ED73F002540BA;
+			remoteInfo = "TCP-UDP_Demo";
+		};
+		D00520D3268ED740002540BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00520A9268ED73F002540BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00520B0268ED73F002540BA;
+			remoteInfo = "TCP-UDP_Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21A70E95CA5B85D0CD1D5126 /* Pods_TCP_UDP_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC44DE351C3AA4BE83AA202 /* Pods-TCP-UDP_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_Demo.release.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_Demo/Pods-TCP-UDP_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5465B493320CB4F1B086DD2C /* Pods-TCP-UDP_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_Demo.debug.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_Demo/Pods-TCP-UDP_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9EA14E071C164C32A0F7F3 /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7448DDA41B54410EE714A10 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B619243D13220C338BA954B6 /* Pods-TCP-UDP_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_DemoTests/Pods-TCP-UDP_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D00520B1268ED73F002540BA /* TCP-UDP_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP-UDP_Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00520B4268ED73F002540BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D00520B6268ED73F002540BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D00520B8268ED73F002540BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D00520BB268ED73F002540BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00520BD268ED740002540BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00520C0268ED740002540BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00520C2268ED740002540BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00520C7268ED740002540BA /* TCP-UDP_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP-UDP_DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00520CB268ED740002540BA /* TCP_UDP_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_UDP_DemoTests.swift; sourceTree = "<group>"; };
+		D00520CD268ED740002540BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00520D2268ED740002540BA /* TCP-UDP_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP-UDP_DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00520D6268ED740002540BA /* TCP_UDP_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCP_UDP_DemoUITests.swift; sourceTree = "<group>"; };
+		D00520D8268ED740002540BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00520ED268EE08F002540BA /* UDPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPViewController.swift; sourceTree = "<group>"; };
+		D00520FB268F0C5D002540BA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D00520FD268F128C002540BA /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
+		D5587BF303095EA2E3AD9156 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1CBFFBFB68F92623F4A112F /* Pods-TCP-UDP_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP-UDP_DemoTests.release.xcconfig"; path = "Target Support Files/Pods-TCP-UDP_DemoTests/Pods-TCP-UDP_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E911E8316B24B6777406F3F9 /* Pods_TCP_UDP_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00520AE268ED73F002540BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91519D672AEAAC20EDA5AC90 /* Pods_TCP_UDP_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520C4268ED740002540BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDA0DF6F1D866DA1E03C778 /* Pods_TCP_UDP_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520CF268ED740002540BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D47BEFAF87B39E02612E4 /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5980FD4762B4EB9CD713A7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5465B493320CB4F1B086DD2C /* Pods-TCP-UDP_Demo.debug.xcconfig */,
+				3EC44DE351C3AA4BE83AA202 /* Pods-TCP-UDP_Demo.release.xcconfig */,
+				A7448DDA41B54410EE714A10 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig */,
+				D5587BF303095EA2E3AD9156 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.release.xcconfig */,
+				B619243D13220C338BA954B6 /* Pods-TCP-UDP_DemoTests.debug.xcconfig */,
+				E1CBFFBFB68F92623F4A112F /* Pods-TCP-UDP_DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4FE6C3F3DB17C1A0FA9DDF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A70E95CA5B85D0CD1D5126 /* Pods_TCP_UDP_Demo.framework */,
+				9D9EA14E071C164C32A0F7F3 /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework */,
+				E911E8316B24B6777406F3F9 /* Pods_TCP_UDP_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D00520A8268ED73F002540BA = {
+			isa = PBXGroup;
+			children = (
+				D00520B3268ED73F002540BA /* TCP-UDP_Demo */,
+				D00520CA268ED740002540BA /* TCP-UDP_DemoTests */,
+				D00520D5268ED740002540BA /* TCP-UDP_DemoUITests */,
+				D00520B2268ED73F002540BA /* Products */,
+				5980FD4762B4EB9CD713A7C1 /* Pods */,
+				C4FE6C3F3DB17C1A0FA9DDF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D00520B2268ED73F002540BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00520B1268ED73F002540BA /* TCP-UDP_Demo.app */,
+				D00520C7268ED740002540BA /* TCP-UDP_DemoTests.xctest */,
+				D00520D2268ED740002540BA /* TCP-UDP_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00520B3268ED73F002540BA /* TCP-UDP_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D00520EB268ED7DC002540BA /* Model */,
+				D00520EA268ED7CB002540BA /* View */,
+				D00520E9268ED7C1002540BA /* Controller */,
+				D00520B4268ED73F002540BA /* AppDelegate.swift */,
+				D00520B6268ED73F002540BA /* SceneDelegate.swift */,
+				D00520BD268ED740002540BA /* Assets.xcassets */,
+				D00520C2268ED740002540BA /* Info.plist */,
+			);
+			path = "TCP-UDP_Demo";
+			sourceTree = "<group>";
+		};
+		D00520CA268ED740002540BA /* TCP-UDP_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D00520CB268ED740002540BA /* TCP_UDP_DemoTests.swift */,
+				D00520CD268ED740002540BA /* Info.plist */,
+			);
+			path = "TCP-UDP_DemoTests";
+			sourceTree = "<group>";
+		};
+		D00520D5268ED740002540BA /* TCP-UDP_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D00520D6268ED740002540BA /* TCP_UDP_DemoUITests.swift */,
+				D00520D8268ED740002540BA /* Info.plist */,
+			);
+			path = "TCP-UDP_DemoUITests";
+			sourceTree = "<group>";
+		};
+		D00520E9268ED7C1002540BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D00520B8268ED73F002540BA /* ViewController.swift */,
+				D00520ED268EE08F002540BA /* UDPViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D00520EA268ED7CB002540BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D00520BA268ED73F002540BA /* Main.storyboard */,
+				D00520BF268ED740002540BA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D00520EB268ED7DC002540BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00520FB268F0C5D002540BA /* Alert.swift */,
+				D00520FD268F128C002540BA /* DateToString.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00520B0268ED73F002540BA /* TCP-UDP_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00520DB268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_Demo" */;
+			buildPhases = (
+				E6D83136A7EC60DE770EC67E /* [CP] Check Pods Manifest.lock */,
+				D00520AD268ED73F002540BA /* Sources */,
+				D00520AE268ED73F002540BA /* Frameworks */,
+				D00520AF268ED73F002540BA /* Resources */,
+				E38EF769540AF5EDFBA69447 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCP-UDP_Demo";
+			productName = "TCP-UDP_Demo";
+			productReference = D00520B1268ED73F002540BA /* TCP-UDP_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00520C6268ED740002540BA /* TCP-UDP_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00520DE268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_DemoTests" */;
+			buildPhases = (
+				0F29A989C5D82DE4FB3C41A6 /* [CP] Check Pods Manifest.lock */,
+				D00520C3268ED740002540BA /* Sources */,
+				D00520C4268ED740002540BA /* Frameworks */,
+				D00520C5268ED740002540BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00520C9268ED740002540BA /* PBXTargetDependency */,
+			);
+			name = "TCP-UDP_DemoTests";
+			productName = "TCP-UDP_DemoTests";
+			productReference = D00520C7268ED740002540BA /* TCP-UDP_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D00520D1268ED740002540BA /* TCP-UDP_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00520E1268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_DemoUITests" */;
+			buildPhases = (
+				29F10503A0765007C314BF4F /* [CP] Check Pods Manifest.lock */,
+				D00520CE268ED740002540BA /* Sources */,
+				D00520CF268ED740002540BA /* Frameworks */,
+				D00520D0268ED740002540BA /* Resources */,
+				58185C1ED8EC61E65A156D68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00520D4268ED740002540BA /* PBXTargetDependency */,
+			);
+			name = "TCP-UDP_DemoUITests";
+			productName = "TCP-UDP_DemoUITests";
+			productReference = D00520D2268ED740002540BA /* TCP-UDP_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00520A9268ED73F002540BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D00520B0268ED73F002540BA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D00520C6268ED740002540BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D00520B0268ED73F002540BA;
+					};
+					D00520D1268ED740002540BA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D00520B0268ED73F002540BA;
+					};
+				};
+			};
+			buildConfigurationList = D00520AC268ED73F002540BA /* Build configuration list for PBXProject "TCP-UDP_Demo" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00520A8268ED73F002540BA;
+			productRefGroup = D00520B2268ED73F002540BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00520B0268ED73F002540BA /* TCP-UDP_Demo */,
+				D00520C6268ED740002540BA /* TCP-UDP_DemoTests */,
+				D00520D1268ED740002540BA /* TCP-UDP_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00520AF268ED73F002540BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00520C1268ED740002540BA /* LaunchScreen.storyboard in Resources */,
+				D00520BE268ED740002540BA /* Assets.xcassets in Resources */,
+				D00520BC268ED73F002540BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520C5268ED740002540BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520D0268ED740002540BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F29A989C5D82DE4FB3C41A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCP-UDP_DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F10503A0765007C314BF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58185C1ED8EC61E65A156D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests/Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38EF769540AF5EDFBA69447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo/Pods-TCP-UDP_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo/Pods-TCP-UDP_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCP-UDP_Demo/Pods-TCP-UDP_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D83136A7EC60DE770EC67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCP-UDP_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00520AD268ED73F002540BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00520B9268ED73F002540BA /* ViewController.swift in Sources */,
+				D00520FE268F128C002540BA /* DateToString.swift in Sources */,
+				D00520B5268ED73F002540BA /* AppDelegate.swift in Sources */,
+				D00520EE268EE08F002540BA /* UDPViewController.swift in Sources */,
+				D00520FC268F0C5D002540BA /* Alert.swift in Sources */,
+				D00520B7268ED73F002540BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520C3268ED740002540BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00520CC268ED740002540BA /* TCP_UDP_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00520CE268ED740002540BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00520D7268ED740002540BA /* TCP_UDP_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00520C9268ED740002540BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00520B0268ED73F002540BA /* TCP-UDP_Demo */;
+			targetProxy = D00520C8268ED740002540BA /* PBXContainerItemProxy */;
+		};
+		D00520D4268ED740002540BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00520B0268ED73F002540BA /* TCP-UDP_Demo */;
+			targetProxy = D00520D3268ED740002540BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D00520BA268ED73F002540BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00520BB268ED73F002540BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00520BF268ED740002540BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00520C0268ED740002540BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00520D9268ED740002540BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00520DA268ED740002540BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00520DC268ED740002540BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5465B493320CB4F1B086DD2C /* Pods-TCP-UDP_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D00520DD268ED740002540BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC44DE351C3AA4BE83AA202 /* Pods-TCP-UDP_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D00520DF268ED740002540BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B619243D13220C338BA954B6 /* Pods-TCP-UDP_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP-UDP_Demo.app/TCP-UDP_Demo";
+			};
+			name = Debug;
+		};
+		D00520E0268ED740002540BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CBFFBFB68F92623F4A112F /* Pods-TCP-UDP_DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP-UDP_Demo.app/TCP-UDP_Demo";
+			};
+			name = Release;
+		};
+		D00520E2268ED740002540BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7448DDA41B54410EE714A10 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TCP-UDP_Demo";
+			};
+			name = Debug;
+		};
+		D00520E3268ED740002540BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5587BF303095EA2E3AD9156 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JEQ2524P;
+				INFOPLIST_FILE = "TCP-UDP_DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leoho.TCP-UDP-Demo.TCP-UDP-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TCP-UDP_Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00520AC268ED73F002540BA /* Build configuration list for PBXProject "TCP-UDP_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00520D9268ED740002540BA /* Debug */,
+				D00520DA268ED740002540BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00520DB268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00520DC268ED740002540BA /* Debug */,
+				D00520DD268ED740002540BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00520DE268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00520DF268ED740002540BA /* Debug */,
+				D00520E0268ED740002540BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00520E1268ED740002540BA /* Build configuration list for PBXNativeTarget "TCP-UDP_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00520E2268ED740002540BA /* Debug */,
+				D00520E3268ED740002540BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00520A9268ED73F002540BA /* Project object */;
+}

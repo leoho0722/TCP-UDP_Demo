@@ -1,0 +1,6 @@
+framework module Pods_TCP_UDP_DemoTests {
+  umbrella header "Pods-TCP-UDP_DemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
