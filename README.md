@@ -9,3 +9,5 @@ iOS App 開發練習 − TCP / UDP Socket 練習
 第三方套件管理：CocoaPods
 
 第三方套件：CocoAsyncSocket
+
+參考資料：https://www.wpgdadatong.com/tw/blog/detail?BID=B0974
