@@ -66,7 +66,7 @@
 		5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		5FF021DA35F890A0A617CEA5789C6837 /* Pods-TCP-UDP_DemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCP-UDP_DemoTests-Info.plist"; sourceTree = "<group>"; };
 		621DD3C9BC05BAAFEA2D888EB6A67E95 /* Pods-TCP-UDP_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCP-UDP_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E610CBF25E3D5B25B2134133B886476 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-dummy.m"; sourceTree = "<group>"; };
 		72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		73E13B5DC25FBE9E3A43EC56AFDD48F8 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.modulemap"; sourceTree = "<group>"; };
@@ -78,17 +78,17 @@
 		87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		97A81CE127838587FF9B1E21B85D4075 /* Pods-TCP-UDP_Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCP-UDP_Demo-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBF0014247C1F0856B393BED89F043C /* Pods-TCP-UDP_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCP-UDP_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		A58326BFCDA59231DEFC869CDF393048 /* Pods_TCP_UDP_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCP_UDP_Demo.framework; path = "Pods-TCP-UDP_Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58326BFCDA59231DEFC869CDF393048 /* Pods_TCP_UDP_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		AD87442ED49C39C1071CB51982D3672F /* Pods-TCP-UDP_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCP-UDP_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0193457A6FAD303A1335EC6777B173E /* Pods-TCP-UDP_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCP-UDP_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2740E5CF3D52BA753E8C5878E0BCFE3 /* Pods-TCP-UDP_DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCP-UDP_DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C35558F31555329DA05D96F7CBF16DFD /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		C87B52905D84921F7A21EE0BD4DD79FC /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework; path = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF232E7FB79C40FB5F15EB995EBB41B /* Pods_TCP_UDP_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCP_UDP_DemoTests.framework; path = "Pods-TCP-UDP_DemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87B52905D84921F7A21EE0BD4DD79FC /* Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_Demo_TCP_UDP_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF232E7FB79C40FB5F15EB995EBB41B /* Pods_TCP_UDP_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_UDP_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B8B729D7FD251E8602637ABC936979 /* Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCP-UDP_Demo-TCP-UDP_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		F05EA09382314D0952DD610C5101425E /* Pods-TCP-UDP_DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCP-UDP_DemoTests-dummy.m"; sourceTree = "<group>"; };
@@ -269,7 +269,6 @@
 				78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */,
 				20FBA2814F5B8EB1A46334124B635D73 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -395,7 +394,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -523,7 +522,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +632,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

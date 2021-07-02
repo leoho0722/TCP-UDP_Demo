@@ -23,6 +23,10 @@ class UDPViewController: UIViewController, GCDAsyncUdpSocketDelegate {
         udpSocket = GCDAsyncUdpSocket(delegate: self, delegateQueue: DispatchQueue.main)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     @IBAction func udpConnectBtn(_ sender: UIButton) {
         do {
             try udpSocket.bind(toPort: UInt16(portTF.text!)!)
@@ -56,6 +60,7 @@ class UDPViewController: UIViewController, GCDAsyncUdpSocketDelegate {
         
         // 發送資料
         udpSocket.send(data!, toHost: IP, port: UInt16(portTF.text!)!, withTimeout: -1, tag: 0)
+        view.endEditing(true)
     }
     
     @IBAction func clearBtn(_ sender: UIButton) {

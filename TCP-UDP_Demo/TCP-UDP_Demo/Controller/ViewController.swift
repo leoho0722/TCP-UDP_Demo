@@ -23,6 +23,10 @@ class ViewController: UIViewController, GCDAsyncSocketDelegate {
         socket = GCDAsyncSocket(delegate: self, delegateQueue: DispatchQueue.main) // 建立 TCP Socket
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     @IBAction func tcpConnectBtn(_ sender: UIButton) {
         bindingPortBtn.isSelected = !(bindingPortBtn.isSelected) // 設定按鈕選擇與取消選擇
         bindingPortBtn.isSelected ? connect() : stopConnect() // 選擇按鈕時進行連線，取消選擇時停止連線
