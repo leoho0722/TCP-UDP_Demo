@@ -4,9 +4,11 @@ iOS App 開發練習 − TCP / UDP Socket 練習
 
 開發語言：Swift 5
 
-開發環境：Xcode 12
+開發環境：Xcode 12、Xcode 13 Beta
 
 系統最低安裝要求：iOS 13.0
+
+測試環境：iPhone 6s Plus (OS Version：iOS 15.0 Dev Beta 2)
 
 第三方套件管理：CocoaPods
 
