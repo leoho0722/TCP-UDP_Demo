@@ -13,3 +13,14 @@ iOS App 開發練習 − TCP / UDP Socket 練習
 第三方套件：CocoAsyncSocket
 
 參考資料：https://www.wpgdadatong.com/tw/blog/detail?BID=B0974
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+# App 進度：
+
+TCP：
+
+Client 端可以正常與  TCP Server 接收訊息、傳送訊息
+
+UDP：
+
+Client 端可以正常傳送訊息給 UDP Server，UDP Server 可以正常接收到 Client 端的訊息 (但反過來就不行！)
