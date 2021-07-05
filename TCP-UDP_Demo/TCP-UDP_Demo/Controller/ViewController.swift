@@ -88,6 +88,7 @@ extension ViewController {
     // 斷開連接
     func socketDidDisconnect(_ sock: GCDAsyncSocket, withError err: Error?) {
         Alert.showMessage(messengeTextView, "斷開連接")
+        bindingPortBtn.setTitle("綁定 Port 號", for: .normal)
     }
 }
 
