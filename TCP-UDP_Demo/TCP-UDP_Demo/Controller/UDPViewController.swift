@@ -33,6 +33,10 @@ class UDPViewController: UIViewController, GCDAsyncUdpSocketDelegate {
             Alert.showMessage(messengeTextView, DateToString.dateString())
             Alert.showMessage(messengeTextView, "已經綁定端口：\(UInt16(portTF.text!)!)")
             Alert.showMessage(messengeTextView, "-----------------------------")
+            bindingPortBtn.isSelected = !(bindingPortBtn.isSelected) // 設定按鈕選擇與取消選擇
+            bindingPortBtn.setTitle("取消綁定 Port 號", for: .normal)
+            // 選擇按鈕時變成灰色，取消選擇時變成預設藍色
+            bindingPortBtn.isSelected ? (self.bindingPortBtn.tintColor = UIColor.gray) : (self.bindingPortBtn.tintColor = UIColor.systemBlue)
         } catch {
             Alert.showMessage(messengeTextView, "端口綁定失敗")
         }
